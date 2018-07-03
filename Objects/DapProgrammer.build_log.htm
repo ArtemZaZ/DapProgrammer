@@ -1,0 +1,112 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Vasja Lojkin, 12, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.24.1
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DCM.DLL V1.16.0.0
+Target DLL:      UL2CM3.DLL V1.160.3.0
+Dialog DLL:      TCM.DLL V1.32.0.0
+ 
+<h2>Project:</h2>
+C:\Users\Artem\Documents\GitHub\DapProgrammer\DapProgrammer.uvprojx
+Project File Date:  07/03/2018
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+compiling main.c...
+compiling gpio.c...
+compiling target.c...
+./libopencm3/include/libopencm3/cm3/scb.h(440): warning:  #1207-D: unknown attribute "naked"
+  void scb_reset_system(void) __attribute__((noreturn, naked));
+src\target.c: 1 warning, 0 errors
+compiling nvic.c...
+compiling rcc.c...
+libopencm3\lib\stm32\f1\rcc.c(175): warning:  #111-D: statement is unreachable
+  		break;
+libopencm3\lib\stm32\f1\rcc.c(178): warning:  #111-D: statement is unreachable
+  		break;
+libopencm3\lib\stm32\f1\rcc.c(181): warning:  #111-D: statement is unreachable
+  		break;
+libopencm3\lib\stm32\f1\rcc.c(184): warning:  #111-D: statement is unreachable
+  		break;
+libopencm3\lib\stm32\f1\rcc.c(187): warning:  #111-D: statement is unreachable
+  		break;
+libopencm3\lib\stm32\f1\rcc.c(190): warning:  #111-D: statement is unreachable
+  		break;
+libopencm3\lib\stm32\f1\rcc.c(193): warning:  #111-D: statement is unreachable
+  		break;
+libopencm3\lib\stm32\f1\rcc.c(460): warning:  #550-D: variable "reg32"  was set but never used
+  	uint32_t reg32;
+libopencm3\lib\stm32\f1\rcc.c: 8 warnings, 0 errors
+compiling gpio_common_all.c...
+compiling rcc_common_all.c...
+compiling assert.c...
+compiling flash_common_f01.c...
+compiling flash.c...
+compiling usb_setup.c...
+compiling st_usbfs_v1.c...
+compiling usb.c...
+compiling usb_standard.c...
+compiling usb_control.c...
+libopencm3\lib\usb\usb_control.c(161): warning:  #188-D: enumerated type mixed with another type
+  				return result;
+libopencm3\lib\usb\usb_control.c: 1 warning, 0 errors
+compiling st_usbfs_core.c...
+libopencm3\lib\stm32\common\st_usbfs_core.c(84): warning:  #513-D: a value of type "void *" cannot be assigned to an entity of type "usbd_endpoint_callback"
+  			dev->user_callback_ctr[addr][USB_TRANSACTION_IN] =
+libopencm3\lib\stm32\common\st_usbfs_core.c(96): warning:  #513-D: a value of type "void *" cannot be assigned to an entity of type "usbd_endpoint_callback"
+  			dev->user_callback_ctr[addr][USB_TRANSACTION_OUT] =
+libopencm3\lib\stm32\common\st_usbfs_core.c: 2 warnings, 0 errors
+assembling startup_stm32f10x_md.s...
+compiling system_stm32f10x.c...
+linking...
+Program Size: Code=1704 RO-data=268 RW-data=12 ZI-data=1636  
+".\Objects\DapProgrammer.axf" - 0 Error(s), 12 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.1.pack
+                ARM.CMSIS.5.0.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.1
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.2.0.pack
+                Keil.STM32F1xx_DFP.2.2.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Device\STM32F103C8
+  .\RTE\_Target_1
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: Keil::Device:Startup:1.0.0
+      Include file:  RTE_Driver\Config\RTE_Device.h
+      Source file:   Device\Source\ARM\STM32F1xx_OPT.s
+      Source file:   Device\Source\ARM\startup_stm32f10x_md.s
+      Source file:   Device\Source\system_stm32f10x.c
+
+   * Component: ARM::CMSIS:CORE:5.0.1
+Build Time Elapsed:  00:00:04
+</pre>
+</body>
+</html>

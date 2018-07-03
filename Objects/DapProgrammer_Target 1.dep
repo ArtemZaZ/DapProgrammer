@@ -1,0 +1,196 @@
+Dependencies for Project 'DapProgrammer', Target 'Target 1': (DO NOT MODIFY !)
+F (.\main.c)(0x5B3B6522)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ./src -I ./libopencm3/include-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DSTM32F1-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (./src/target.h)(0x5B3B31BA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BC994)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588BC994)
+F (.\src\target.c)(0x5B3B39B7)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ./src -I ./libopencm3/include-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DSTM32F1-o .\objects\target.o --omf_browse .\objects\target.crf --depend .\objects\target.d)
+I (./libopencm3/include/libopencm3/stm32/rcc.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/cm3/common.h)(0x5B3B55B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BC994)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588BC994)
+I (./libopencm3/include/libopencm3/stm32/memorymap.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/stm32/f1/memorymap.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/cm3/memorymap.h)(0x5B3B55B9)
+I (./libopencm3/include/libopencm3/stm32/f1/rcc.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/stm32/common/rcc_common_all.h)(0x5B3B55B9)
+I (./libopencm3/include/libopencm3/stm32/gpio.h)(0x5B3B58D9)
+I (./libopencm3/include/libopencm3/stm32/f1/gpio.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/stm32/common/gpio_common_all.h)(0x5B3B55B9)
+I (./libopencm3/include/libopencm3/cm3/nvic.h)(0x5B3B55B9)
+I (./libopencm3/include/libopencm3/dispatch/nvic.h)(0x5B3B55B9)
+I (./libopencm3/include/libopencm3/stm32/f1/nvic.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/cm3/scb.h)(0x5B3B55B9)
+I (src\target.h)(0x5B3B31BA)
+I (src\config.h)(0x5B3B2DFF)
+F (.\libopencm3\lib\stm32\f1\gpio.c)(0x5B3B55C0)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ./src -I ./libopencm3/include-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DSTM32F1-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
+I (./libopencm3/include/libopencm3/stm32/gpio.h)(0x5B3B58D9)
+I (./libopencm3/include/libopencm3/cm3/common.h)(0x5B3B55B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BC994)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588BC994)
+I (./libopencm3/include/libopencm3/stm32/memorymap.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/stm32/f1/memorymap.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/cm3/memorymap.h)(0x5B3B55B9)
+I (./libopencm3/include/libopencm3/stm32/f1/gpio.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/stm32/common/gpio_common_all.h)(0x5B3B55B9)
+F (.\libopencm3\lib\stm32\f1\rcc.c)(0x5B3B5753)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ./src -I ./libopencm3/include-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DSTM32F1-o .\objects\rcc.o --omf_browse .\objects\rcc.crf --depend .\objects\rcc.d)
+I (./libopencm3/include/libopencm3/cm3/assert.h)(0x5B3B55B8)
+I (./libopencm3/include/libopencm3/cm3/common.h)(0x5B3B55B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BC994)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588BC994)
+I (./libopencm3/include/libopencm3/stm32/rcc.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/stm32/memorymap.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/stm32/f1/memorymap.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/cm3/memorymap.h)(0x5B3B55B9)
+I (./libopencm3/include/libopencm3/stm32/f1/rcc.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/stm32/common/rcc_common_all.h)(0x5B3B55B9)
+I (./libopencm3/include/libopencm3/stm32/flash.h)(0x5B3B5921)
+I (./libopencm3/include/libopencm3/stm32/f1/flash.h)(0x5B3B595B)
+I (./libopencm3/include/libopencm3/stm32/common/flash_common_f01.h)(0x5B3B55B9)
+F (.\libopencm3\lib\cm3\nvic.c)(0x5B3B55BB)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ./src -I ./libopencm3/include-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DSTM32F1-o .\objects\nvic.o --omf_browse .\objects\nvic.crf --depend .\objects\nvic.d)
+I (./libopencm3/include/libopencm3/cm3/nvic.h)(0x5B3B55B9)
+I (./libopencm3/include/libopencm3/cm3/common.h)(0x5B3B55B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BC994)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588BC994)
+I (./libopencm3/include/libopencm3/cm3/memorymap.h)(0x5B3B55B9)
+I (./libopencm3/include/libopencm3/dispatch/nvic.h)(0x5B3B55B9)
+I (./libopencm3/include/libopencm3/stm32/f1/nvic.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/cm3/scs.h)(0x5B3B55B9)
+F (.\libopencm3\lib\stm32\common\gpio_common_all.c)(0x5B3B55C0)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ./src -I ./libopencm3/include-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DSTM32F1-o .\objects\gpio_common_all.o --omf_browse .\objects\gpio_common_all.crf --depend .\objects\gpio_common_all.d)
+I (./libopencm3/include/libopencm3/stm32/gpio.h)(0x5B3B58D9)
+I (./libopencm3/include/libopencm3/cm3/common.h)(0x5B3B55B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BC994)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588BC994)
+I (./libopencm3/include/libopencm3/stm32/memorymap.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/stm32/f1/memorymap.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/cm3/memorymap.h)(0x5B3B55B9)
+I (./libopencm3/include/libopencm3/stm32/f1/gpio.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/stm32/common/gpio_common_all.h)(0x5B3B55B9)
+F (.\libopencm3\lib\stm32\common\rcc_common_all.c)(0x5B3B55C0)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ./src -I ./libopencm3/include-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DSTM32F1-o .\objects\rcc_common_all.o --omf_browse .\objects\rcc_common_all.crf --depend .\objects\rcc_common_all.d)
+I (./libopencm3/include/libopencm3/stm32/rcc.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/cm3/common.h)(0x5B3B55B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BC994)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588BC994)
+I (./libopencm3/include/libopencm3/stm32/memorymap.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/stm32/f1/memorymap.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/cm3/memorymap.h)(0x5B3B55B9)
+I (./libopencm3/include/libopencm3/stm32/f1/rcc.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/stm32/common/rcc_common_all.h)(0x5B3B55B9)
+F (.\libopencm3\lib\cm3\assert.c)(0x5B3B55BB)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ./src -I ./libopencm3/include-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DSTM32F1-o .\objects\assert.o --omf_browse .\objects\assert.crf --depend .\objects\assert.d)
+I (./libopencm3/include/libopencm3/cm3/assert.h)(0x5B3B55B8)
+I (./libopencm3/include/libopencm3/cm3/common.h)(0x5B3B55B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BC994)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588BC994)
+F (.\libopencm3\lib\stm32\common\flash_common_f01.c)(0x5B3B59A2)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ./src -I ./libopencm3/include-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DSTM32F1-o .\objects\flash_common_f01.o --omf_browse .\objects\flash_common_f01.crf --depend .\objects\flash_common_f01.d)
+I (./libopencm3/include/libopencm3/stm32/flash.h)(0x5B3B5921)
+I (./libopencm3/include/libopencm3/cm3/common.h)(0x5B3B55B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BC994)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588BC994)
+I (./libopencm3/include/libopencm3/stm32/memorymap.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/stm32/f1/memorymap.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/cm3/memorymap.h)(0x5B3B55B9)
+I (./libopencm3/include/libopencm3/stm32/f1/flash.h)(0x5B3B595B)
+I (./libopencm3/include/libopencm3/stm32/common/flash_common_f01.h)(0x5B3B55B9)
+F (.\libopencm3\lib\stm32\f1\flash.c)(0x5B3B55C0)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ./src -I ./libopencm3/include-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DSTM32F1-o .\objects\flash.o --omf_browse .\objects\flash.crf --depend .\objects\flash.d)
+I (./libopencm3/include/libopencm3/stm32/desig.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/cm3/common.h)(0x5B3B55B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BC994)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588BC994)
+I (./libopencm3/include/libopencm3/stm32/memorymap.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/stm32/f1/memorymap.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/cm3/memorymap.h)(0x5B3B55B9)
+I (./libopencm3/include/libopencm3/stm32/flash.h)(0x5B3B5921)
+I (./libopencm3/include/libopencm3/stm32/f1/flash.h)(0x5B3B595B)
+I (./libopencm3/include/libopencm3/stm32/common/flash_common_f01.h)(0x5B3B55B9)
+F (.\src\usb_setup.c)(0x5B3B63BB)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ./src -I ./libopencm3/include-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DSTM32F1-o .\objects\usb_setup.o --omf_browse .\objects\usb_setup.crf --depend .\objects\usb_setup.d)
+I (./libopencm3/include/libopencm3/stm32/rcc.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/cm3/common.h)(0x5B3B55B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BC994)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588BC994)
+I (./libopencm3/include/libopencm3/stm32/memorymap.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/stm32/f1/memorymap.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/cm3/memorymap.h)(0x5B3B55B9)
+I (./libopencm3/include/libopencm3/stm32/f1/rcc.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/stm32/common/rcc_common_all.h)(0x5B3B55B9)
+I (./libopencm3/include/libopencm3/stm32/gpio.h)(0x5B3B58D9)
+I (./libopencm3/include/libopencm3/stm32/f1/gpio.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/stm32/common/gpio_common_all.h)(0x5B3B55B9)
+I (./libopencm3/include/libopencm3/stm32/st_usbfs.h)(0x5B3B6436)
+I (./libopencm3/include/libopencm3/stm32/f1/st_usbfs.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/stm32/common/st_usbfs_v1.h)(0x5B3B55B9)
+I (./libopencm3/include/libopencm3/stm32/common/st_usbfs_common.h)(0x5B3B55B9)
+I (./libopencm3/include/libopencm3/stm32/tools.h)(0x5B3B55BA)
+I (src\usb_setup.h)(0x5B3B2DFF)
+I (./libopencm3/include/libopencm3/usb/usbd.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/usb/usbstd.h)(0x5B3B55BA)
+F (.\libopencm3\lib\stm32\st_usbfs_v1.c)(0x5B3B64D8)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ./src -I ./libopencm3/include-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DSTM32F1-o .\objects\st_usbfs_v1.o --omf_browse .\objects\st_usbfs_v1.crf --depend .\objects\st_usbfs_v1.d)
+I (./libopencm3/include/libopencm3/cm3/common.h)(0x5B3B55B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BC994)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588BC994)
+I (./libopencm3/include/libopencm3/stm32/rcc.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/stm32/memorymap.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/stm32/f1/memorymap.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/cm3/memorymap.h)(0x5B3B55B9)
+I (./libopencm3/include/libopencm3/stm32/f1/rcc.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/stm32/common/rcc_common_all.h)(0x5B3B55B9)
+I (./libopencm3/include/libopencm3/stm32/tools.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/stm32/st_usbfs.h)(0x5B3B6436)
+I (./libopencm3/include/libopencm3/stm32/f1/st_usbfs.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/stm32/common/st_usbfs_v1.h)(0x5B3B55B9)
+I (./libopencm3/include/libopencm3/stm32/common/st_usbfs_common.h)(0x5B3B55B9)
+I (./libopencm3/include/libopencm3/usb/usbd.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/usb/usbstd.h)(0x5B3B55BA)
+I (libopencm3\lib\stm32\../usb/usb_private.h)(0x5B3B55C4)
+I (libopencm3\lib\stm32\common/st_usbfs_core.h)(0x5B3B55C0)
+F (.\libopencm3\lib\usb\usb.c)(0x5B3B55C4)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ./src -I ./libopencm3/include-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DSTM32F1-o .\objects\usb.o --omf_browse .\objects\usb.crf --depend .\objects\usb.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588BC994)
+I (./libopencm3/include/libopencm3/usb/usbd.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/usb/usbstd.h)(0x5B3B55BA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BC994)
+I (./libopencm3/include/libopencm3/cm3/common.h)(0x5B3B55B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588BC994)
+I (libopencm3\lib\usb\usb_private.h)(0x5B3B55C4)
+F (.\libopencm3\lib\usb\usb_standard.c)(0x5B3B55C4)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ./src -I ./libopencm3/include-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DSTM32F1-o .\objects\usb_standard.o --omf_browse .\objects\usb_standard.crf --depend .\objects\usb_standard.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588BC994)
+I (./libopencm3/include/libopencm3/usb/usbd.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/usb/usbstd.h)(0x5B3B55BA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BC994)
+I (./libopencm3/include/libopencm3/cm3/common.h)(0x5B3B55B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588BC994)
+I (libopencm3\lib\usb\usb_private.h)(0x5B3B55C4)
+F (.\libopencm3\lib\usb\usb_control.c)(0x5B3B55C4)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ./src -I ./libopencm3/include-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DSTM32F1-o .\objects\usb_control.o --omf_browse .\objects\usb_control.crf --depend .\objects\usb_control.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588BC994)
+I (./libopencm3/include/libopencm3/usb/usbd.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/usb/usbstd.h)(0x5B3B55BA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BC994)
+I (./libopencm3/include/libopencm3/cm3/common.h)(0x5B3B55B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588BC994)
+I (libopencm3\lib\usb\usb_private.h)(0x5B3B55C4)
+F (.\libopencm3\lib\stm32\common\st_usbfs_core.c)(0x5B3B55C0)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ./src -I ./libopencm3/include-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DSTM32F1-o .\objects\st_usbfs_core.o --omf_browse .\objects\st_usbfs_core.crf --depend .\objects\st_usbfs_core.d)
+I (./libopencm3/include/libopencm3/cm3/common.h)(0x5B3B55B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BC994)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588BC994)
+I (./libopencm3/include/libopencm3/stm32/rcc.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/stm32/memorymap.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/stm32/f1/memorymap.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/cm3/memorymap.h)(0x5B3B55B9)
+I (./libopencm3/include/libopencm3/stm32/f1/rcc.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/stm32/common/rcc_common_all.h)(0x5B3B55B9)
+I (./libopencm3/include/libopencm3/stm32/tools.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/stm32/st_usbfs.h)(0x5B3B6436)
+I (./libopencm3/include/libopencm3/stm32/f1/st_usbfs.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/stm32/common/st_usbfs_v1.h)(0x5B3B55B9)
+I (./libopencm3/include/libopencm3/stm32/common/st_usbfs_common.h)(0x5B3B55B9)
+I (./libopencm3/include/libopencm3/usb/usbd.h)(0x5B3B55BA)
+I (./libopencm3/include/libopencm3/usb/usbstd.h)(0x5B3B55BA)
+I (libopencm3\lib\stm32\common\../../usb/usb_private.h)(0x5B3B55C4)
+I (libopencm3\lib\stm32\common\st_usbfs_core.h)(0x5B3B55C0)
+F (RTE\Device\STM32F103C8\RTE_Device.h)(0x57D295C0)()
+F (RTE\Device\STM32F103C8\startup_stm32f10x_md.s)(0x58257EBC)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include--pd "__UVISION_VERSION SETA 524" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f10x_md.lst --xref -o .\objects\startup_stm32f10x_md.o --depend .\objects\startup_stm32f10x_md.d)
+F (RTE\Device\STM32F103C8\system_stm32f10x.c)(0x5B3B5BAD)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ./src -I ./libopencm3/include-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DSTM32F1-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x58257EBC)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5B3B2EDD)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm3.h)(0x58988FDA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BC994)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x58988FDA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x58988FDA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x58257EBC)

@@ -1,0 +1,10 @@
+.\objects\nvic.o: libopencm3\lib\cm3\nvic.c
+.\objects\nvic.o: ./libopencm3/include/libopencm3/cm3/nvic.h
+.\objects\nvic.o: ./libopencm3/include/libopencm3/cm3/common.h
+.\objects\nvic.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\nvic.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\nvic.o: ./libopencm3/include/libopencm3/cm3/memorymap.h
+.\objects\nvic.o: ./libopencm3/include/libopencm3/dispatch/nvic.h
+.\objects\nvic.o: ./libopencm3/include/libopencm3/stm32/f1/nvic.h
+.\objects\nvic.o: ./libopencm3/include/libopencm3/cm3/nvic.h
+.\objects\nvic.o: ./libopencm3/include/libopencm3/cm3/scs.h
